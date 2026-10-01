@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "alterlab-rnaseq-quant": {
+      "source": "alterlab-ieu/alterlab-academic-skills",
+      "sourceType": "github",
+      "skillPath": "skills/bioinformatics/alterlab-rnaseq-quant/SKILL.md",
+      "computedHash": "148b622d7b080c363dff0d3685094e714621cf0d7be292ce063752cc3629ad1f"
+    },
+    "bulk-rnaseq": {
+      "source": "k-dense-ai/scientific-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/bulk-rnaseq/SKILL.md",
+      "computedHash": "66b55ebb1b66d01e6d4bbb81910706ef5a2169d778d3db8aae9240aa1e988654"
+    },
+    "nextflow": {
+      "source": "k-dense-ai/scientific-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/nextflow/SKILL.md",
+      "computedHash": "3f1bcdbd1bb0bc9abfb5b2f4d7ee24bfdafecb0fac19640e02105795c73dd9ef"
+    },
+    "tooluniverse": {
+      "source": "mims-harvard/tooluniverse",
+      "sourceType": "github",
+      "skillPath": "skills/tooluniverse/SKILL.md",
+      "computedHash": "199d215cffbf4ae68e8bd0873a0e5e6f0ea387775d11d6078082dae6d8f654d3"
+    }
+  }
+}
