@@ -535,7 +535,8 @@
                 "extra_star_align_args": {
                     "type": "string",
                     "minLength": 1,
-                    "description": "Extra arguments to pass to STAR alignment command in addition to defaults defined by the pipeline. Only available for the STAR-Salmon route.",
+                    "default": "--outFilterMultimapNmax 20 --alignSJDBoverhangMin 1 --outSAMattributes NH HI AS NM MD --quantTranscriptomeSAMoutput BanSingleEnd --outSAMstrandField intronMotif --outFilterMatchNmin 30 --outFilterMatchNminOverLread 0.2 --outFilterScoreMinOverLread 0.0 --outFilterMismatchNoverLmax 1.0 --seedMultimapNmax 10000 --outFilterMismatchNmax 1 --winAnchorMultimapNmax 1000 --seedSearchStartLmax 31",
+                    "description": "Extra arguments to pass to STAR alignment command in addition to defaults defined by the pipeline. Applied to STAR alignment for both star_salmon and star_rsem routes; user-supplied values override on clash.",
                     "fa_icon": "fas fa-plus"
                 },
                 "extra_hisat2_align_args": {
